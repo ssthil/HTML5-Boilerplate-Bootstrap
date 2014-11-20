@@ -1,0 +1,158 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{ 
+	margin: 0;
+	padding: 0;
+}
+.navbar-form {
+	padding: 0;
+	margin: 0;
+}
+.slide{
+	width:100%;
+	height:380px;
+}
+#slide1{
+	background:#674172;
+}
+#slide2{
+	background:#2c3e50;
+}
+#slide3{
+	background:#c0392b;
+}
+.bnr-circle{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin: 0 auto;
+	display:none;
+}
+.circle-1{
+	background: #A780BE;
+}
+.circle-2{
+	background: #6B879B;
+}
+.circle-3{
+	background: #FDC940;
+}
+
+#features{
+	background:#E5E8E8;
+	text-align:center;
+	padding-bottom:30px;
+	border-bottom:1px dashed #333;
+}
+#services{
+	background:#FDF8BF;
+	text-align:center;
+	border-bottom:1px dashed #333;
+}
+.service-icon{
+	width: 70px;
+	height: 50px;
+	border-radius: 5px;
+	background: none;
+	margin: 0 auto;
+	border: 1px solid #C89944;
+	padding: 10px 0 0 0;
+}
+.service-icon i{
+font-size: 1.8em;
+color: #D37E0C;
+}
+
+.section-desc{
+margin: 20px 0 0 0;
+}
+
+.padding-ten{
+	padding:10px 0;
+}
+.features-box, .service-box{
+	text-align:center;
+}
+.features-icon{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	background:#678586;
+	margin:0 auto;
+	font-size:3.5em;
+	padding:10px 0 0 0;
+	color:#fff;
+}
+.service-box h3{
+	font-size:1.4em;
+	color: #D37E0C;
+}
+.service-box{
+	font-size:1em;
+	margin:0 0 20px 0;
+	padding:10px;
+	font-size:95%;
+}
+.section-title h1{
+	text-align:center;
+	font-family:impact;
+	padding: 75px 0 0 0;
+}
+
+/* ==========================================================================
+   customized bootstrap
+   ========================================================================== */
+.carousel-control.right, .carousel-control.left {
+  background-image:none;
+}
+.carousel-caption {
+	bottom: 50px;
+}
+.carousel-inner{
+	margin:50px 0 0 0;
+}
+#footer {
+background: #141414;
+padding: 20px 0;
+color: #FFF;
+}
+@media screen and (min-width:321px) and (max-width:480px){
+	h1, .h1 {
+		font-size: 25px;
+	}
+}
+@media screen and (min-width:481px) and (max-width:767px){
+	h1, .h1 {
+		font-size: 25px;
+	}
+}
+@media screen and (min-width:481px) and (max-width:767px){
+	h1, .h1 {
+		font-size: 25px;
+	}
+}
+@media screen and (min-width:768px){
+	.bnr-circle{
+		display:block;
+	}
+	h1, .h1 {
+		font-size: 33px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

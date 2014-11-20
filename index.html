@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>My Application - Bootstrap</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
+		<link rel="stylesheet" href="css/bootstrap-custom.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="navbar-collapse collapse">
+		  <div class="navbar-form navbar-right" role="form">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#carousel-example-generic">Home</a></li>
+					<li><a href="#features">Features</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#">Products</a></li>
+					<li><a href="#">Clients</a></li>
+					<li><a href="#">Contact us</a></li>
+				</ul>
+		  </div>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<div id="slide1" class="slide"></div>
+				<div class="carousel-caption">
+					<div class="bnr-circle circle-1"></div>
+					<h1>Technical Tips: Use the power of selectors</h1>
+					<p>A child selector targets an immediate child of a certain element. A child selector consists of two or more selectors separated by a greater than sign, “>”. The parent goes to the left of the “>”, and whitespace is allowed around the combinator. </p>
+				</div>
+			</div>
+			<div class="item">
+				<div id="slide2" class="slide"></div>
+				<div class="carousel-caption">
+					<div class="bnr-circle circle-2"></div>
+					<h1>Express sincere gratitude to all designers</h1>
+					<p>We also included some basic techniques you can probably use in every project you are developing, but which are hard to find once you need them.</p>
+				</div>
+			</div>
+			<div class="item">
+				<div id="slide3" class="slide"></div>
+				<div class="carousel-caption">
+					<div class="bnr-circle circle-3"></div>
+					<h1>Don’t redeclare inherited values</h1>
+					<p>The values of many properties are inherited by any descendants of the element that you specify the property for. color and the font related properties are the most common examples of such properties.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- Controls -->
+		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+		</div>
+		<!-- Section features-->
+		<section id="features">
+			<div class="container">
+			<div class="row">
+					<div class="col-sm-12 section-title">
+						<h1>Features</h1>
+					</div>
+				</div>
+				<div class="row ">
+					<div class="col-sm-12 section-desc">
+						<h1 class="padding-ten">What it can do for you</h1>
+						<p class="padding-ten">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+					</div>
+				</div>
+				<div class="row ">
+					<div class="col-sm-4 features-box">
+						<div class="features-icon">
+							<i class="fa fa-fire"></i>
+						</div>
+						<h3>Easy To Use</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+					</div>
+					<div class="col-sm-4 features-box">
+						<div class="features-icon">
+							<i class="fa fa-cloud"></i>
+						</div>
+						<h3>Cloud Based</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+					</div>
+					<div class="col-sm-4 features-box">
+						<div class="features-icon">
+							<i class="fa fa-pencil"></i>
+						</div>
+						<h3>Awesome Design</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Section services -->
+		<section id="services">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 section-title">
+						<h1>Services</h1>
+					</div>
+				</div>
+				<div class="row ">
+					<div class="col-sm-12 section-desc">
+						<h1 class="padding-ten">Design Responsive Websites In The Browser With Webflow</h1>
+						<p class="padding-ten">When designing mobile first, navigation takes a back seat to content, and ruthless editing paves the way for more focused experiences. The pursuit of simplicity, combined with the tight spatial constraints of mobile viewports, often leads us to strip away elements in an attempt to minimize the interface. But the space-saving convenience we gain through clever editing and a compact UI can come at the expense of the very navigational aids our users rely on.</p>
+					</div>
+				</div>
+				<div class="row ">
+					<div class="col-sm-4">
+						<div class="service-box">
+							<div class="service-icon"><i class="fa fa-home"></i></div>
+							<h3>Identify users and scenarios</h3>
+							<p>Since HTML5 came into webpages it brought a bunch of new features, the most useful features it brings is the functionality that you would normally use JavaScript for. </p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="service-box">
+							<div class="service-icon"><i class="fa fa-phone"></i></div>
+							<h3>Conduct the evaluation</h3>
+							<p>In the following tutorial we are going to learn how you can use AJAX in WordPress to run your own functions. </p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="service-box">
+							<div class="service-icon"><i class="fa fa-image"></i></div>
+							<h3>Conduct a team review</h3>
+							<p>Conduct a team review session to compare, validate and aggregate the findings of the individual evaluations.</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="service-box">
+							<div class="service-icon"><i class="fa fa-code"></i></div>
+							<h3>Clear code</h3>
+							<p>When moving through a town, the streets and side walks are the pathways we use to get from one point to another. </p>
+						</div>	
+					</div>
+					<div class="col-sm-4">
+						<div class="service-box">
+							<div class="service-icon"><i class="fa fa-desktop"></i></div>
+							<h3>Responsive design</h3>
+							<p>This type of top-down categorical tree is the de facto convention for information-rich websites.</p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="service-box">
+							<div class="service-icon"><i class="fa fa-support"></i></div>
+							<h3>Support</h3>
+							<p>This alone is pretty straightforward stuff. It gets interesting when you factor in multiscreen behavior and adaptive design. </p>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Section products-->
+		<section id="products">
+			<div class="container">
+				<div class="row"></div>
+			</div>
+		</section>
+		
+		<!-- Section clients-->
+		<section id="clients">
+			<div class="container">
+				<div class="row"></div>
+			</div>
+		</section>
+		
+		<!-- Section contact us-->
+		<section id="contact">
+			<div class="container">
+				<div class="row"></div>
+			</div>
+		</section>
+<!-- Section footer-->		
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<p class="copy">&copy; Company 2014</p>
+			</div>
+		</div>
+	</div>
+</footer>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
